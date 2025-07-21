@@ -118,14 +118,14 @@ const displayCustomerInfo = function(email) {
     }
 };
 
-registerCustomer('Batool', 'batool@example.com', 'coffee');
-registerCustomer('Malk', 'malk@example.com', 'Cappuccino');
+registerCustomer('Batool', 'batool@gmail.com', 'coffee');
+registerCustomer('Malk', 'malk@gmail.com', 'Cappuccino');
 
-updateVisit('batool@example.com');
-updateVisit('batool@example.com'); 
-updateVisit('batool@example.com'); 
-updateVisit('malk@example.com');
-updateVisit('malk@example.com');
+updateVisit('batool@gmail.com');
+updateVisit('batool@gmail.com'); 
+updateVisit('batool@gmail.com'); 
+updateVisit('malk@gmail.com');
+updateVisit('malk@gmail.com');
 
-displayCustomerInfo('batool@example.com');
-displayCustomerInfo('malk@example.com');
+displayCustomerInfo('batool@gmail.com');
+displayCustomerInfo('malk@gmail.com');
