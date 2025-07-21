@@ -123,6 +123,8 @@ registerCustomer('Malk', 'malk@example.com', 'Cappuccino');
 
 updateVisit('batool@example.com');
 updateVisit('batool@example.com'); 
+updateVisit('batool@example.com'); 
+updateVisit('malk@example.com');
 updateVisit('malk@example.com');
 
 displayCustomerInfo('batool@example.com');
